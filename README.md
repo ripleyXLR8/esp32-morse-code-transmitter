@@ -1,1 +1,1 @@
-# esp32-morse-code-translator
+# Esp32 Morse Code Translator
