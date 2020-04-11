@@ -1,10 +1,10 @@
 # ESP-32 Morse Code Transmiter
 
-What's the point?
+## What's the point?
 
-This is a very simple software which translate a string into morse code. The resulting code can be transmited by blinking leds and/or sending web requests corresponding to DASHES and DOTS. To facilitate decoding blinking and/or web-requests can use different pins and URLs for odd and even characters. You can also customize every aspect of the morse code (speed, pause, duration of dashes and dots) and add a pause and a start signal at the beginning.
+This is a very simple software which translate a string into morse code. The resulting code can be transmited by blinking leds and/or sending web requests corresponding to DASHES and DOTS. To facilitate decoding, blinking and/or web-requests can use different pins and URLs for odd and even characters. You can also customize every aspect of the morse code (speed, pause, duration of dashes and dots) and add a pause and a start signal at the beginning.
 
-How to use it?
+## How to use it?
 
 1) Add HTTPClient.h and WiFi.h library to your arduino IDE and open the *.ino file. 
 
@@ -21,3 +21,4 @@ How to use it?
 - In the section "MORSE TIMING CONFIGURATION" you can configure how fast the morse code is transmitted.
 
 Have fun and HPBD Clémence.
+ 
